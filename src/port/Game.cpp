@@ -198,6 +198,13 @@ void CM_SpawnFromLevelProps() {
    // Editor::SpawnFromLevelProps();
 }
 
+void SetDefaultCup(void) {
+    SetCourseById(0);
+    gWorldInstance.CurrentCup = gMushroomCup;
+    gWorldInstance.CurrentCup->CursorPosition = 3;
+    gWorldInstance.CupIndex = 0;
+}
+
 World* GetWorld(void) {
     return &gWorldInstance;
 }

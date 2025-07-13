@@ -4,6 +4,7 @@
 #include <libultraship/libultraship.h>
 #include "UIWidgets.h"
 #include "MenuTypes.h"
+#include "../port/Game.h"
 
 extern "C" {
 #include "defines.h"
@@ -60,6 +61,9 @@ class Menu : public GuiWindow {
     virtual void ProcessReset() {
       gGamestateNext = MAIN_MENU_FROM_QUIT;
       gIsGamePaused = 0;
+      SetDefaultCup();
+      memset(&gGameModeMenuColumn, 0, sizeof(s8) * 4);
+      memset(&gGameModeSubMenuColumn, 0, sizeof(s8) * 4 * 3);
 
       switch(CVarGetInteger("gSkipIntro", 0)) {
           case 0:

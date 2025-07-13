@@ -131,6 +131,8 @@ void CM_TickActors();
 
 void CM_DrawBombKarts(s32 cameraId);
 
+void SetDefaultCup(void);
+
 size_t GetCupCursorPosition();
 
 void SetCupCursorPosition(size_t position);
