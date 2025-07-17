@@ -144,12 +144,8 @@ void CustomEngineInit() {
     gWorldInstance.AddCup(gSpecialCup);
     gWorldInstance.AddCup(gBattleCup);
 
-    /* Set default course; mario raceway */
     //SelectMarioRaceway(); // This results in a nullptr
-    gWorldInstance.CurrentCourse = mario;
-    gWorldInstance.CurrentCup = gMushroomCup;
-    gWorldInstance.CurrentCup->CursorPosition = 3;
-    gWorldInstance.CupIndex = 0;
+    SetMarioRaceway();
 
     // ModelLoader::LoadModelList bowserStatueList = {
     //     .course = gBowsersCastle,
@@ -198,7 +194,8 @@ void CM_SpawnFromLevelProps() {
    // Editor::SpawnFromLevelProps();
 }
 
-void SetDefaultCup(void) {
+// Set default course; mario raceway
+void SetMarioRaceway(void) {
     SetCourseById(0);
     gWorldInstance.CurrentCup = gMushroomCup;
     gWorldInstance.CurrentCup->CursorPosition = 3;

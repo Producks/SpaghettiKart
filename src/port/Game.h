@@ -131,7 +131,7 @@ void CM_TickActors();
 
 void CM_DrawBombKarts(s32 cameraId);
 
-void SetDefaultCup(void);
+void SetMarioRaceway(void);
 
 size_t GetCupCursorPosition();
 

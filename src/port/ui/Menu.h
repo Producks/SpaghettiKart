@@ -61,9 +61,9 @@ class Menu : public GuiWindow {
     virtual void ProcessReset() {
       gGamestateNext = MAIN_MENU_FROM_QUIT;
       gIsGamePaused = 0;
-      SetDefaultCup();
-      memset(&gGameModeMenuColumn, 0, sizeof(s8) * 4);
-      memset(&gGameModeSubMenuColumn, 0, sizeof(s8) * 4 * 3);
+      SetMarioRaceway();
+      memset(&gGameModeMenuColumn, 0, sizeof(s8) * NUM_ROWS_GAME_MODE_MENU);
+      memset(&gGameModeSubMenuColumn, 0, sizeof(s8) * NUM_COLUMN_GAME_MODE_SUB_MENU * NUM_ROWS_GAME_MODE_SUB_MENU);
 
       switch(CVarGetInteger("gSkipIntro", 0)) {
           case 0:
