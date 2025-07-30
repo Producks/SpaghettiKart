@@ -5,6 +5,7 @@ var code__800029B0_8c =
     [ "func_800029B0", "code__800029B0_8c.html#a7f2e9212dffa5894377677511e9aea7a", null ],
     [ "func_80002DAC", "code__800029B0_8c.html#aa64b1458166c92a3575d8edd5948a628", null ],
     [ "setup_race", "code__800029B0_8c.html#aca6165112fc92e65ad6477e785a7098c", null ],
+    [ "update_music_volume", "code__800029B0_8c.html#ad2261513ccdc1dde9259588945f5e55f", null ],
     [ "code_800029B0_bss_pad", "code__800029B0_8c.html#ad8544e8a57deed6006687a91ba568e03", null ],
     [ "code_800029B0_bss_pad2", "code__800029B0_8c.html#a4b1f667b54ee60061ad7bb3ec499b854", null ],
     [ "D_800DC5A8", "code__800029B0_8c.html#a9e4e9cb5139089fd7b12f4e6210e986d", null ],
@@ -101,11 +102,11 @@ var code__800029B0_8c =
     [ "gPlayerWinningIndex", "code__800029B0_8c.html#a8a6a0e5ed8709356fba948d0beeb6a95", null ],
     [ "gQuitToMenuTransitionCounter", "code__800029B0_8c.html#a5018fabd53fbeb5f453f5d76a8620c84", null ],
     [ "gTimePlayerLastTouchedFinishLine", "code__800029B0_8c.html#a3ce3001b1bfd4f8df4d3f46af7af9ae0", null ],
+    [ "gVtxStretch", "code__800029B0_8c.html#a080ec3096c5acec160d85f6b9a118880", null ],
     [ "gWaterLevel", "code__800029B0_8c.html#a10027d54a3bcb66f9b07ae4ea16fcb65", null ],
     [ "gWaterVelocity", "code__800029B0_8c.html#ae83f0b6a32b3f4ff4daba8ed2846890d", null ],
     [ "pad_800029B0", "code__800029B0_8c.html#aea825b8f6ea6bd888583c5c22e27c427", null ],
     [ "pAppNmiBuffer", "code__800029B0_8c.html#a1b736c2cce57eb258b8e704e9424a9b4", null ],
     [ "sIsController1Unplugged", "code__800029B0_8c.html#a432e0d50767ea0e8ac6ce5eb757ce1a8", null ],
-    [ "vtxBuffer", "code__800029B0_8c.html#aa0ad826ca04f449e196c0f7c0825c7d2", null ],
-    [ "vtxStretchY", "code__800029B0_8c.html#acd2b5bc5e9cf24c233cbfec96cfbd4b6", null ]
+    [ "vtxBuffer", "code__800029B0_8c.html#aa0ad826ca04f449e196c0f7c0825c7d2", null ]
 ];
